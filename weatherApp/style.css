@@ -1,0 +1,67 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 400px;
+  height: 450px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+#search-box{
+  width: 60%;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: none;
+}
+#searchIcon{
+  width: 40px;
+  height: 40px;
+  background-color: beige;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}   
+
+#temp-info{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.icons{
+  font-size: 80px;
+}
+.fa-cloud {
+  position: absolute;
+  left: 50%;
+   color: white;
+}
+
+#temp{
+  margin-top: 20px;
+}
+#citytemp{
+  margin-top: 20px;
+}
+#weather-info{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+gap: 100px;
+}
